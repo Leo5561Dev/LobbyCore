@@ -1,1 +1,18 @@
-
+name: LobbyCore
+version: 0.0.1
+author: Leo
+main: Leo\lobbycore\LobbyCore
+api: 4.0.0
+permissions:
+  server.command.lobbycore:
+    description: Use for command /server
+    default: op
+  removeEntity.lobbycore.permission:
+    description: Use for remove entity
+    default: op
+  break.block.lobbycore.permission:
+    description: Use for break blocks
+    default: op
+  place.block.lobbycore.permission:
+    description: Use for place blocks
+    default: op
