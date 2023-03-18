@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Leo5561Dev/LobbyCore
+build-by-default: true
+branches:
+- main
+projects:
+  LobbyCore:
+    path: ""
+...
